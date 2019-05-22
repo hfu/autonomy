@@ -1,6 +1,9 @@
 # autonomy
 IT dashboard の行政界データをベクトルタイルにしたもの
 
+# ドキュメント
+https://hackmd.io/s/SkHdRnxTE
+
 # 生産
 ## 必要なソフトウェア
 - GDAL 2.4.0 以上
