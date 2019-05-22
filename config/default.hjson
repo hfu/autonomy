@@ -1,0 +1,8 @@
+{
+  urls: [
+    https://www.itdashboard.go.jp/js/data/prefectures.geojson
+    https://www.itdashboard.go.jp/js/data/municipality.geojson
+    https://www.itdashboard.go.jp/js/data/municipality_name.geojson
+  ]
+}
+
