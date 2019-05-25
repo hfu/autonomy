@@ -12,6 +12,7 @@ const dstDir = config.get('dstDir')
 const tippecanoe = spawn(tippecanoePath, [
   `--output-to-directory=${dstDir}`,
   `--no-tile-compression`,
+  '--force',
   `--minimum-zoom=${minzoom}`,
   `--maximum-zoom=${maxzoom}`
 ], { stdio: ['pipe', 'inherit', 'inherit'] })

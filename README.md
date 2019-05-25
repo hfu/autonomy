@@ -11,6 +11,7 @@ https://hackmd.io/s/SkHdRnxTE
 - Node.js
 - Ruby。rake を使います。
 - hjson
+- gl-style-validate
 
 ## インストール
 ```console

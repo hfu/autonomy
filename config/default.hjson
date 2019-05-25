@@ -10,7 +10,7 @@
     }
     {
       url: https://www.itdashboard.go.jp/js/data/municipality.geojson
-      layer: munisipality
+      layer: municipality
       minzoom: 8
       maxzoom: 10
     }
