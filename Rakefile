@@ -5,7 +5,7 @@ task :default do
 end
 
 task :tiles do
-  sh "node index.js
+  sh "node index.js"
 end
 
 task :budo do

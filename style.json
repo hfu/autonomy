@@ -1,7 +1,7 @@
 {
   "center": [
-    135.43,
-    35.23
+    139.754,
+    35.746
   ],
   "glyphs": "https://vectortiles.xyz/fonts/{fontstack}/{range}.pbf",
   "layers": [
@@ -19,8 +19,6 @@
     },
     {
       "id": "prefecture",
-      "maxzoom": 8,
-      "minzoom": 2,
       "paint": {
         "fill-color": [
           "rgb",
@@ -41,8 +39,6 @@
     },
     {
       "id": "municipality",
-      "maxzoom": 10,
-      "minzoom": 8,
       "paint": {
         "fill-color": [
           "rgb",
@@ -64,15 +60,16 @@
     {
       "id": "munilabel",
       "layout": {
-        "text-field": "code",
+        "text-field": [
+          "get",
+          "code"
+        ],
         "text-font": [
           "sans"
         ]
       },
-      "maxzoom": 10,
-      "minzoom": 10,
       "source": "v",
-      "source-layer": "municipality",
+      "source-layer": "munilabel",
       "type": "symbol"
     }
   ],
@@ -89,5 +86,5 @@
   },
   "sprite": "https://hfu.github.io/unite-sprite/sprite",
   "version": 8,
-  "zoom": 3.44
+  "zoom": 8.22
 }

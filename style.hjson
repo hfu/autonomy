@@ -1,10 +1,10 @@
 {
   version: 8
   center: [
-    135.43
-    35.23
+    139.754
+    35.746
   ]
-  zoom: 3.44
+  zoom: 8.22
   sources: {
     v: {
       type: vector
@@ -36,8 +36,6 @@
       type: fill
       source: v
       source-layer: prefecture
-      minzoom: 2
-      maxzoom: 8
       paint: {
         fill-color: [
           rgb
@@ -58,8 +56,6 @@
       type: fill
       source: v
       source-layer: municipality
-      minzoom: 8
-      maxzoom: 10
       paint: {
         fill-color: [
           rgb
@@ -80,10 +76,11 @@
       type: symbol
       source: v
       source-layer: munilabel
-      minzoom: 10
-      maxzoom: 10
       layout: {
-        text-field: code
+        text-field: [
+          get
+          code
+        ]
         text-font: [
           sans
         ]
