@@ -3,7 +3,7 @@
 
 var map = new mapboxgl.Map({
   container: 'map',
-  maxZoom: 10,
+  maxZoom: 22,
   style: 'style.json',
   attributionControl: true,
   hash: true,
