@@ -1,8 +1,28 @@
 {
-  urls: [
-    https://www.itdashboard.go.jp/js/data/prefectures.geojson
-    https://www.itdashboard.go.jp/js/data/municipality.geojson
-    https://www.itdashboard.go.jp/js/data/municipality_name.geojson
+  minzoom: 2
+  maxzoom: 10
+  srcs: [
+    {
+      url: https://www.itdashboard.go.jp/js/data/prefectures.geojson
+      layer: prefecture
+      minzoom: 2 
+      maxzoom: 7
+    }
+    {
+      url: https://www.itdashboard.go.jp/js/data/municipality.geojson
+      layer: munisipality
+      minzoom: 8
+      maxzoom: 10
+    }
+    {
+      url: https://www.itdashboard.go.jp/js/data/municipality_name.geojson
+      layer: munilabel
+      minzoom: 10
+      maxzoom: 10
+    }
   ]
+  ogr2ogrPath: /usr/local/bin/ogr2ogr
+  tippecanoePath: tippecanoe
+  dstDir: zxy
 }
 

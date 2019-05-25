@@ -4,7 +4,7 @@
   "description": "IT dashboard の行政界データをベクトルタイルにしたもの",
   "main": "index.js",
   "scripts": {
-    "produce": "node index.js"
+    "produce": "rake"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,12 @@
   "homepage": "https://github.com/hfu/autonomy#readme",
   "dependencies": {
     "config": "^3.1.0",
-    "hjson": "^3.1.2"
+    "hjson": "^3.1.2",
+    "json-text-sequence": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babelify": "^10.0.0"
   }
 }
