@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/hfu/autonomy#readme",
   "dependencies": {
-    "config": "^3.1.0",
+    "config": "^3.3.8",
     "hjson": "^3.1.2",
     "json-text-sequence": "^0.1.1"
   },
